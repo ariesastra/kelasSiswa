@@ -118,7 +118,8 @@ class ClassController {
         const cekEmpty = await emptySeat(ClassId)
         const cekStudent = await ClassSeat.findOne({
           where: {
-            studentId: id
+            studentId: id,
+            classId: ClassId
           }
         })
 
