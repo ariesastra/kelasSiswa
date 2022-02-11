@@ -14,6 +14,7 @@ Aplikasi ini adalah aplikasi backend yang dibuat menggunakan NodeJS, Express, Po
 ```bash
   npx sequelize-cli db:create
   npm run db:dev
+  npm run dev
 ````
 - Saya sudah membuat `seeder user` agar proses testing lebih cepat, berikut list akun user yang dapat digunakan untuk login dan mendapatkan token: 
 ```json
